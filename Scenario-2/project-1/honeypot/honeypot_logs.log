@@ -1,0 +1,40 @@
+2024-12-11 00:04:12,710 - WARNING - Honeypot triggered! Username: honeypot_user, Password: test123
+2024-12-11 00:38:11,680 - WARNING - Honeypot triggered! Username: admin' OR, Password: any_password
+2024-12-11 00:39:02,398 - WARNING - Honeypot triggered! Username: admin' OR '1'='1, Password: 
+2024-12-11 00:39:03,972 - WARNING - Honeypot triggered! Username: honeypot_user, Password: test123
+2024-12-11 00:41:00,065 - WARNING - Honeypot triggered! Username: admin' OR '1'='1, Password: 
+2024-12-11 00:41:01,643 - WARNING - Honeypot triggered! Username: honeypot_user, Password: test123
+2024-12-11 00:46:13,726 - WARNING - Honeypot triggered! Username: admin, Password: 1234
+2024-12-11 00:46:24,823 - WARNING - Honeypot triggered! Username: admin, Password: 1234
+2024-12-11 00:48:44,934 - WARNING - Honeypot triggered! Username: admin, Password: 1234
+2024-12-11 03:22:53,699 - WARNING - Honeypot triggered! Username: admin;--, Password: password
+2024-12-11 03:23:53,091 - WARNING - Honeypot triggered! Username: admin' OR '1'='1, Password: 
+2024-12-11 03:26:15,377 - WARNING - Honeypot triggered! Username: admin' OR '1'='1, Password: 
+2024-12-11 03:29:08,471 - WARNING - Honeypot triggered! Username: admin' OR '1'='1, Password: 
+2024-12-11 03:30:12,833 - WARNING - Honeypot triggered! Username: admin' OR '1'='1, Password: 
+2024-12-11 03:33:34,272 - WARNING - Honeypot triggered! Username: admin' OR '1'='1, Password: 
+2024-12-11 03:34:39,238 - WARNING - Honeypot triggered! Username: admin;--, Password: password
+2024-12-11 03:34:40,606 - WARNING - Honeypot triggered! Username: admin;--, Password: password
+2024-12-11 03:38:46,762 - WARNING - Honeypot triggered! Username: admin;--, Password: password
+2024-12-11 03:38:47,313 - WARNING - Honeypot triggered! Username: admin;--, Password: password
+2024-12-13 15:25:27,260 - WARNING - Honeypot triggered! Username: admin;--, Password: password
+2024-12-13 15:26:19,821 - WARNING - Honeypot triggered! Username: admin' OR '1'='1, Password: 
+2024-12-13 15:26:21,395 - WARNING - Honeypot triggered! Username: honeypot_user, Password: test123
+2024-12-13 15:27:51,078 - WARNING - Honeypot triggered! Username: admin' OR '1'='1, Password: 
+2024-12-13 15:27:52,086 - WARNING - Honeypot triggered! Username: honeypot_user, Password: test123
+2024-12-13 15:38:25,504 - WARNING - Honeypot triggered! Username: admin;--, Password: password
+2024-12-13 15:38:54,113 - WARNING - Honeypot triggered! Username: admin' OR '1'='1, Password: 
+2024-12-13 16:00:08,523 - WARNING - Honeypot triggered! Username: admin' OR '1'='1, Password: 
+2024-12-13 16:00:09,656 - WARNING - Honeypot triggered! Username: honeypot_user, Password: test123
+2024-12-13 16:25:43,189 - WARNING - Honeypot triggered! Username: admin;--, Password: password
+2024-12-13 16:25:55,919 - WARNING - Honeypot triggered! Username: admin' OR '1'='1, Password: 
+2024-12-13 16:41:24,670 - WARNING - Honeypot triggered! Username: admin;--, Password: password
+2024-12-13 16:41:51,336 - WARNING - Honeypot triggered! Username: admin' OR '1'='1, Password: 
+2024-12-13 16:42:37,983 - WARNING - Honeypot triggered! Username: admin' OR '1'='1, Password: 
+2024-12-13 16:46:39,104 - WARNING - Honeypot triggered! Username: admin' OR '1'='1, Password: 
+2024-12-13 16:48:39,169 - WARNING - Honeypot triggered! Username: admin' OR '1'='1, Password: 
+2024-12-13 16:48:53,346 - WARNING - Honeypot triggered! Username: admin' OR '1'='1, Password: 
+2024-12-13 16:54:47,696 - WARNING - Honeypot triggered! Username: admin;--, Password: password
+2024-12-13 16:55:42,298 - WARNING - Honeypot triggered! Username: admin;--, Password: password
+2024-12-13 16:56:08,141 - WARNING - Honeypot triggered! Username: admin' OR '1'='1, Password: 
+2024-12-13 16:57:06,399 - WARNING - Honeypot triggered! Username: admin' OR '1'='1, Password: 

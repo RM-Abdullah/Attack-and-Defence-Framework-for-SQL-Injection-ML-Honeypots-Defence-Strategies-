@@ -1,0 +1,1001 @@
+input_data,label
+"' UNION SELECT null, username, password FROM users --",1
+' OR 1=1 --,1
+' OR 1=1 --,1
+admin' OR '1'='1',1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+admin' OR '1'='1',1
+admin' --,1
+DROP TABLE users; --,1
+"SELECT id, name FROM employees WHERE department='HR'",0
+SELECT * FROM users WHERE username='admin' AND password='password',0
+"' UNION SELECT null, username, password FROM users --",1
+"SELECT id, name FROM employees WHERE department='HR'",0
+' OR 1=1 --,1
+"' UNION SELECT null, username, password FROM users --",1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+admin' --,1
+SELECT * FROM users WHERE username='admin' AND password='password',0
+'; EXEC xp_cmdshell('dir'); --,1
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+'; EXEC xp_cmdshell('dir'); --,1
+' OR 1=1 --,1
+'; EXEC xp_cmdshell('dir'); --,1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+"' UNION SELECT null, username, password FROM users --",1
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+DROP TABLE users; --,1
+DROP TABLE users; --,1
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+DROP TABLE users; --,1
+DROP TABLE users; --,1
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+SELECT * FROM users WHERE username='admin' AND password='password',0
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+admin' OR '1'='1',1
+SELECT * FROM users WHERE username='admin' AND password='password',0
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+' OR 1=1 --,1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+"SELECT id, name FROM employees WHERE department='HR'",0
+SELECT * FROM users WHERE username='admin' AND password='password',0
+DROP TABLE users; --,1
+SELECT * FROM users WHERE username='admin' AND password='password',0
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+admin' OR '1'='1',1
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+admin' --,1
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+admin' --,1
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+SELECT * FROM users WHERE username='admin' AND password='password',0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+DROP TABLE users; --,1
+SELECT * FROM users WHERE username='admin' AND password='password',0
+' OR 1=1 --,1
+DROP TABLE users; --,1
+' OR 1=1 --,1
+"SELECT id, name FROM employees WHERE department='HR'",0
+admin' --,1
+admin' OR '1'='1',1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+"SELECT id, name FROM employees WHERE department='HR'",0
+SELECT * FROM users WHERE username='admin' AND password='password',0
+admin' --,1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+'; EXEC xp_cmdshell('dir'); --,1
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+'; EXEC xp_cmdshell('dir'); --,1
+'; EXEC xp_cmdshell('dir'); --,1
+' OR 1=1 --,1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+SELECT * FROM users WHERE username='admin' AND password='password',0
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+'; EXEC xp_cmdshell('dir'); --,1
+'; EXEC xp_cmdshell('dir'); --,1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+admin' OR '1'='1',1
+SELECT * FROM users WHERE username='admin' AND password='password',0
+"SELECT id, name FROM employees WHERE department='HR'",0
+"SELECT id, name FROM employees WHERE department='HR'",0
+' OR 1=1 --,1
+DROP TABLE users; --,1
+DROP TABLE users; --,1
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+"SELECT id, name FROM employees WHERE department='HR'",0
+SELECT * FROM users WHERE username='admin' AND password='password',0
+"SELECT id, name FROM employees WHERE department='HR'",0
+'; EXEC xp_cmdshell('dir'); --,1
+admin' --,1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+admin' --,1
+"SELECT id, name FROM employees WHERE department='HR'",0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+"' UNION SELECT null, username, password FROM users --",1
+SELECT * FROM users WHERE username='admin' AND password='password',0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+'; EXEC xp_cmdshell('dir'); --,1
+' OR 1=1 --,1
+"SELECT id, name FROM employees WHERE department='HR'",0
+"SELECT id, name FROM employees WHERE department='HR'",0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+SELECT * FROM users WHERE username='admin' AND password='password',0
+' OR 1=1 --,1
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+"SELECT id, name FROM employees WHERE department='HR'",0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+"SELECT id, name FROM employees WHERE department='HR'",0
+admin' --,1
+SELECT * FROM users WHERE username='admin' AND password='password',0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+admin' OR '1'='1',1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+' OR 1=1 --,1
+' OR 1=1 --,1
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+SELECT * FROM users WHERE username='admin' AND password='password',0
+DROP TABLE users; --,1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+DROP TABLE users; --,1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+'; EXEC xp_cmdshell('dir'); --,1
+admin' --,1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+admin' --,1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+admin' --,1
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+' OR 1=1 --,1
+"SELECT id, name FROM employees WHERE department='HR'",0
+admin' --,1
+admin' OR '1'='1',1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+' OR 1=1 --,1
+' OR 1=1 --,1
+"SELECT id, name FROM employees WHERE department='HR'",0
+"SELECT id, name FROM employees WHERE department='HR'",0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+'; EXEC xp_cmdshell('dir'); --,1
+admin' OR '1'='1',1
+SELECT * FROM users WHERE username='admin' AND password='password',0
+"SELECT id, name FROM employees WHERE department='HR'",0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+DROP TABLE users; --,1
+SELECT * FROM users WHERE username='admin' AND password='password',0
+admin' OR '1'='1',1
+admin' --,1
+' OR 1=1 --,1
+SELECT * FROM users WHERE username='admin' AND password='password',0
+DROP TABLE users; --,1
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+"' UNION SELECT null, username, password FROM users --",1
+DROP TABLE users; --,1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+' OR 1=1 --,1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+SELECT * FROM users WHERE username='admin' AND password='password',0
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+' OR 1=1 --,1
+admin' OR '1'='1',1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+SELECT * FROM users WHERE username='admin' AND password='password',0
+admin' --,1
+"SELECT id, name FROM employees WHERE department='HR'",0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+"' UNION SELECT null, username, password FROM users --",1
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+"SELECT id, name FROM employees WHERE department='HR'",0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+DROP TABLE users; --,1
+"SELECT id, name FROM employees WHERE department='HR'",0
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+'; EXEC xp_cmdshell('dir'); --,1
+DROP TABLE users; --,1
+SELECT * FROM users WHERE username='admin' AND password='password',0
+DROP TABLE users; --,1
+SELECT * FROM users WHERE username='admin' AND password='password',0
+"' UNION SELECT null, username, password FROM users --",1
+' OR 1=1 --,1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+SELECT * FROM users WHERE username='admin' AND password='password',0
+admin' OR '1'='1',1
+"SELECT id, name FROM employees WHERE department='HR'",0
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+DROP TABLE users; --,1
+"' UNION SELECT null, username, password FROM users --",1
+admin' --,1
+SELECT * FROM users WHERE username='admin' AND password='password',0
+admin' OR '1'='1',1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+' OR 1=1 --,1
+'; EXEC xp_cmdshell('dir'); --,1
+admin' OR '1'='1',1
+admin' --,1
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+DROP TABLE users; --,1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+"' UNION SELECT null, username, password FROM users --",1
+' OR 1=1 --,1
+'; EXEC xp_cmdshell('dir'); --,1
+"' UNION SELECT null, username, password FROM users --",1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+' OR 1=1 --,1
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+"SELECT id, name FROM employees WHERE department='HR'",0
+"SELECT id, name FROM employees WHERE department='HR'",0
+' OR 1=1 --,1
+' OR 1=1 --,1
+admin' --,1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+admin' OR '1'='1',1
+'; EXEC xp_cmdshell('dir'); --,1
+DROP TABLE users; --,1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+"SELECT id, name FROM employees WHERE department='HR'",0
+admin' OR '1'='1',1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+' OR 1=1 --,1
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+' OR 1=1 --,1
+admin' OR '1'='1',1
+' OR 1=1 --,1
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+SELECT * FROM users WHERE username='admin' AND password='password',0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+admin' OR '1'='1',1
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+DROP TABLE users; --,1
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+' OR 1=1 --,1
+admin' OR '1'='1',1
+"SELECT id, name FROM employees WHERE department='HR'",0
+"SELECT id, name FROM employees WHERE department='HR'",0
+SELECT * FROM users WHERE username='admin' AND password='password',0
+DROP TABLE users; --,1
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+admin' --,1
+"SELECT id, name FROM employees WHERE department='HR'",0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+admin' --,1
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+' OR 1=1 --,1
+SELECT * FROM users WHERE username='admin' AND password='password',0
+"SELECT id, name FROM employees WHERE department='HR'",0
+DROP TABLE users; --,1
+' OR 1=1 --,1
+SELECT * FROM users WHERE username='admin' AND password='password',0
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+admin' OR '1'='1',1
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+"SELECT id, name FROM employees WHERE department='HR'",0
+admin' OR '1'='1',1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+'; EXEC xp_cmdshell('dir'); --,1
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+'; EXEC xp_cmdshell('dir'); --,1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+admin' OR '1'='1',1
+"' UNION SELECT null, username, password FROM users --",1
+SELECT * FROM users WHERE username='admin' AND password='password',0
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+' OR 1=1 --,1
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+admin' OR '1'='1',1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+'; EXEC xp_cmdshell('dir'); --,1
+' OR 1=1 --,1
+"SELECT id, name FROM employees WHERE department='HR'",0
+admin' OR '1'='1',1
+"' UNION SELECT null, username, password FROM users --",1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+"SELECT id, name FROM employees WHERE department='HR'",0
+"SELECT id, name FROM employees WHERE department='HR'",0
+SELECT * FROM users WHERE username='admin' AND password='password',0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+admin' --,1
+'; EXEC xp_cmdshell('dir'); --,1
+admin' --,1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+"SELECT id, name FROM employees WHERE department='HR'",0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+SELECT * FROM users WHERE username='admin' AND password='password',0
+'; EXEC xp_cmdshell('dir'); --,1
+"' UNION SELECT null, username, password FROM users --",1
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+admin' OR '1'='1',1
+' OR 1=1 --,1
+admin' --,1
+"SELECT id, name FROM employees WHERE department='HR'",0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+'; EXEC xp_cmdshell('dir'); --,1
+'; EXEC xp_cmdshell('dir'); --,1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+admin' --,1
+"SELECT id, name FROM employees WHERE department='HR'",0
+admin' OR '1'='1',1
+DROP TABLE users; --,1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+admin' OR '1'='1',1
+"SELECT id, name FROM employees WHERE department='HR'",0
+DROP TABLE users; --,1
+DROP TABLE users; --,1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+SELECT * FROM users WHERE username='admin' AND password='password',0
+SELECT * FROM users WHERE username='admin' AND password='password',0
+"' UNION SELECT null, username, password FROM users --",1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+"SELECT id, name FROM employees WHERE department='HR'",0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+"' UNION SELECT null, username, password FROM users --",1
+'; EXEC xp_cmdshell('dir'); --,1
+"SELECT id, name FROM employees WHERE department='HR'",0
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+"SELECT id, name FROM employees WHERE department='HR'",0
+SELECT * FROM users WHERE username='admin' AND password='password',0
+admin' OR '1'='1',1
+DROP TABLE users; --,1
+admin' OR '1'='1',1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+"SELECT id, name FROM employees WHERE department='HR'",0
+SELECT * FROM users WHERE username='admin' AND password='password',0
+"SELECT id, name FROM employees WHERE department='HR'",0
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+"SELECT id, name FROM employees WHERE department='HR'",0
+"SELECT id, name FROM employees WHERE department='HR'",0
+admin' OR '1'='1',1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+'; EXEC xp_cmdshell('dir'); --,1
+admin' OR '1'='1',1
+"' UNION SELECT null, username, password FROM users --",1
+DROP TABLE users; --,1
+admin' OR '1'='1',1
+admin' OR '1'='1',1
+SELECT * FROM users WHERE username='admin' AND password='password',0
+SELECT * FROM users WHERE username='admin' AND password='password',0
+'; EXEC xp_cmdshell('dir'); --,1
+admin' OR '1'='1',1
+"SELECT id, name FROM employees WHERE department='HR'",0
+DROP TABLE users; --,1
+SELECT * FROM users WHERE username='admin' AND password='password',0
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+"' UNION SELECT null, username, password FROM users --",1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+DROP TABLE users; --,1
+"SELECT id, name FROM employees WHERE department='HR'",0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+DROP TABLE users; --,1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+"SELECT id, name FROM employees WHERE department='HR'",0
+' OR 1=1 --,1
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+"' UNION SELECT null, username, password FROM users --",1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+' OR 1=1 --,1
+admin' --,1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+DROP TABLE users; --,1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+' OR 1=1 --,1
+admin' OR '1'='1',1
+admin' OR '1'='1',1
+admin' OR '1'='1',1
+DROP TABLE users; --,1
+"' UNION SELECT null, username, password FROM users --",1
+"SELECT id, name FROM employees WHERE department='HR'",0
+'; EXEC xp_cmdshell('dir'); --,1
+SELECT * FROM users WHERE username='admin' AND password='password',0
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+admin' OR '1'='1',1
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+"' UNION SELECT null, username, password FROM users --",1
+'; EXEC xp_cmdshell('dir'); --,1
+DROP TABLE users; --,1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+admin' OR '1'='1',1
+"' UNION SELECT null, username, password FROM users --",1
+"' UNION SELECT null, username, password FROM users --",1
+SELECT * FROM users WHERE username='admin' AND password='password',0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+SELECT * FROM users WHERE username='admin' AND password='password',0
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+'; EXEC xp_cmdshell('dir'); --,1
+admin' OR '1'='1',1
+DROP TABLE users; --,1
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+admin' OR '1'='1',1
+' OR 1=1 --,1
+admin' --,1
+"SELECT id, name FROM employees WHERE department='HR'",0
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+"SELECT id, name FROM employees WHERE department='HR'",0
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+DROP TABLE users; --,1
+"SELECT id, name FROM employees WHERE department='HR'",0
+"SELECT id, name FROM employees WHERE department='HR'",0
+admin' --,1
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+admin' OR '1'='1',1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+SELECT * FROM users WHERE username='admin' AND password='password',0
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+SELECT * FROM users WHERE username='admin' AND password='password',0
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+"' UNION SELECT null, username, password FROM users --",1
+DROP TABLE users; --,1
+admin' --,1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+admin' --,1
+admin' --,1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+"SELECT id, name FROM employees WHERE department='HR'",0
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+DROP TABLE users; --,1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+admin' --,1
+admin' OR '1'='1',1
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+"SELECT id, name FROM employees WHERE department='HR'",0
+DROP TABLE users; --,1
+DROP TABLE users; --,1
+'; EXEC xp_cmdshell('dir'); --,1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+"' UNION SELECT null, username, password FROM users --",1
+"' UNION SELECT null, username, password FROM users --",1
+' OR 1=1 --,1
+SELECT * FROM users WHERE username='admin' AND password='password',0
+DROP TABLE users; --,1
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+SELECT * FROM users WHERE username='admin' AND password='password',0
+SELECT * FROM users WHERE username='admin' AND password='password',0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+DROP TABLE users; --,1
+' OR 1=1 --,1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+SELECT * FROM users WHERE username='admin' AND password='password',0
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+SELECT * FROM users WHERE username='admin' AND password='password',0
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+'; EXEC xp_cmdshell('dir'); --,1
+admin' OR '1'='1',1
+' OR 1=1 --,1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+' OR 1=1 --,1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+SELECT * FROM users WHERE username='admin' AND password='password',0
+"SELECT id, name FROM employees WHERE department='HR'",0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+admin' OR '1'='1',1
+SELECT * FROM users WHERE username='admin' AND password='password',0
+"SELECT id, name FROM employees WHERE department='HR'",0
+admin' --,1
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+' OR 1=1 --,1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+SELECT * FROM users WHERE username='admin' AND password='password',0
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+admin' --,1
+"SELECT id, name FROM employees WHERE department='HR'",0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+' OR 1=1 --,1
+SELECT * FROM users WHERE username='admin' AND password='password',0
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+admin' --,1
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+admin' OR '1'='1',1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+"' UNION SELECT null, username, password FROM users --",1
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+"' UNION SELECT null, username, password FROM users --",1
+DROP TABLE users; --,1
+admin' OR '1'='1',1
+"SELECT id, name FROM employees WHERE department='HR'",0
+'; EXEC xp_cmdshell('dir'); --,1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+"SELECT id, name FROM employees WHERE department='HR'",0
+admin' --,1
+admin' OR '1'='1',1
+DROP TABLE users; --,1
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+admin' --,1
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+admin' OR '1'='1',1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+"SELECT id, name FROM employees WHERE department='HR'",0
+' OR 1=1 --,1
+"SELECT id, name FROM employees WHERE department='HR'",0
+SELECT * FROM users WHERE username='admin' AND password='password',0
+admin' --,1
+"SELECT id, name FROM employees WHERE department='HR'",0
+"' UNION SELECT null, username, password FROM users --",1
+DROP TABLE users; --,1
+SELECT * FROM users WHERE username='admin' AND password='password',0
+' OR 1=1 --,1
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+admin' --,1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+admin' --,1
+DROP TABLE users; --,1
+SELECT * FROM users WHERE username='admin' AND password='password',0
+"' UNION SELECT null, username, password FROM users --",1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+admin' --,1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+admin' --,1
+"' UNION SELECT null, username, password FROM users --",1
+' OR 1=1 --,1
+'; EXEC xp_cmdshell('dir'); --,1
+admin' --,1
+"' UNION SELECT null, username, password FROM users --",1
+SELECT * FROM users WHERE username='admin' AND password='password',0
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+admin' OR '1'='1',1
+SELECT * FROM users WHERE username='admin' AND password='password',0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+'; EXEC xp_cmdshell('dir'); --,1
+admin' --,1
+'; EXEC xp_cmdshell('dir'); --,1
+'; EXEC xp_cmdshell('dir'); --,1
+"' UNION SELECT null, username, password FROM users --",1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+admin' OR '1'='1',1
+SELECT * FROM users WHERE username='admin' AND password='password',0
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+SELECT * FROM users WHERE username='admin' AND password='password',0
+"SELECT id, name FROM employees WHERE department='HR'",0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+"SELECT id, name FROM employees WHERE department='HR'",0
+DROP TABLE users; --,1
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+admin' --,1
+admin' --,1
+"' UNION SELECT null, username, password FROM users --",1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+DROP TABLE users; --,1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+admin' OR '1'='1',1
+admin' --,1
+admin' --,1
+"' UNION SELECT null, username, password FROM users --",1
+'; EXEC xp_cmdshell('dir'); --,1
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+admin' --,1
+admin' OR '1'='1',1
+SELECT * FROM users WHERE username='admin' AND password='password',0
+admin' OR '1'='1',1
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+admin' OR '1'='1',1
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+admin' --,1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+' OR 1=1 --,1
+admin' OR '1'='1',1
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+DROP TABLE users; --,1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+"' UNION SELECT null, username, password FROM users --",1
+admin' OR '1'='1',1
+"SELECT id, name FROM employees WHERE department='HR'",0
+"' UNION SELECT null, username, password FROM users --",1
+"' UNION SELECT null, username, password FROM users --",1
+admin' --,1
+DROP TABLE users; --,1
+admin' --,1
+' OR 1=1 --,1
+"SELECT id, name FROM employees WHERE department='HR'",0
+admin' OR '1'='1',1
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+SELECT * FROM users WHERE username='admin' AND password='password',0
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+' OR 1=1 --,1
+SELECT * FROM users WHERE username='admin' AND password='password',0
+admin' OR '1'='1',1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+admin' OR '1'='1',1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+'; EXEC xp_cmdshell('dir'); --,1
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+"' UNION SELECT null, username, password FROM users --",1
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+admin' OR '1'='1',1
+admin' --,1
+admin' OR '1'='1',1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+' OR 1=1 --,1
+admin' OR '1'='1',1
+"' UNION SELECT null, username, password FROM users --",1
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+admin' OR '1'='1',1
+admin' --,1
+admin' OR '1'='1',1
+"' UNION SELECT null, username, password FROM users --",1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+SELECT * FROM users WHERE username='admin' AND password='password',0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+"' UNION SELECT null, username, password FROM users --",1
+"SELECT id, name FROM employees WHERE department='HR'",0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+DROP TABLE users; --,1
+SELECT * FROM users WHERE username='admin' AND password='password',0
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+admin' OR '1'='1',1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+"' UNION SELECT null, username, password FROM users --",1
+admin' OR '1'='1',1
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+'; EXEC xp_cmdshell('dir'); --,1
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+"SELECT id, name FROM employees WHERE department='HR'",0
+' OR 1=1 --,1
+'; EXEC xp_cmdshell('dir'); --,1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+"' UNION SELECT null, username, password FROM users --",1
+"SELECT id, name FROM employees WHERE department='HR'",0
+admin' --,1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+DROP TABLE users; --,1
+admin' --,1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+SELECT * FROM users WHERE username='admin' AND password='password',0
+admin' OR '1'='1',1
+"SELECT id, name FROM employees WHERE department='HR'",0
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+"SELECT id, name FROM employees WHERE department='HR'",0
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+admin' --,1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+admin' OR '1'='1',1
+SELECT * FROM users WHERE username='admin' AND password='password',0
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+' OR 1=1 --,1
+SELECT * FROM users WHERE username='admin' AND password='password',0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+admin' --,1
+admin' --,1
+"SELECT id, name FROM employees WHERE department='HR'",0
+'; EXEC xp_cmdshell('dir'); --,1
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+'; EXEC xp_cmdshell('dir'); --,1
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+admin' --,1
+DROP TABLE users; --,1
+"SELECT id, name FROM employees WHERE department='HR'",0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+'; EXEC xp_cmdshell('dir'); --,1
+'; EXEC xp_cmdshell('dir'); --,1
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+'; EXEC xp_cmdshell('dir'); --,1
+"' UNION SELECT null, username, password FROM users --",1
+' OR 1=1 --,1
+'; EXEC xp_cmdshell('dir'); --,1
+admin' OR '1'='1',1
+' OR 1=1 --,1
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+admin' OR '1'='1',1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+SELECT * FROM users WHERE username='admin' AND password='password',0
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+' OR 1=1 --,1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+"' UNION SELECT null, username, password FROM users --",1
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+"SELECT id, name FROM employees WHERE department='HR'",0
+admin' OR '1'='1',1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+admin' OR '1'='1',1
+"' UNION SELECT null, username, password FROM users --",1
+"' UNION SELECT null, username, password FROM users --",1
+'; EXEC xp_cmdshell('dir'); --,1
+SELECT * FROM users WHERE username='admin' AND password='password',0
+admin' OR '1'='1',1
+SELECT * FROM users WHERE username='admin' AND password='password',0
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+' OR 1=1 --,1
+"SELECT id, name FROM employees WHERE department='HR'",0
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+admin' OR '1'='1',1
+' OR 1=1 --,1
+"' UNION SELECT null, username, password FROM users --",1
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+admin' --,1
+DROP TABLE users; --,1
+admin' --,1
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+SELECT * FROM users WHERE username='admin' AND password='password',0
+"SELECT id, name FROM employees WHERE department='HR'",0
+'; EXEC xp_cmdshell('dir'); --,1
+SELECT * FROM users WHERE username='admin' AND password='password',0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+' OR 1=1 --,1
+"' UNION SELECT null, username, password FROM users --",1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+admin' OR '1'='1',1
+admin' --,1
+SELECT * FROM users WHERE username='admin' AND password='password',0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+SELECT * FROM users WHERE username='admin' AND password='password',0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+"' UNION SELECT null, username, password FROM users --",1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+'; EXEC xp_cmdshell('dir'); --,1
+SELECT * FROM users WHERE username='admin' AND password='password',0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+admin' --,1
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+"SELECT id, name FROM employees WHERE department='HR'",0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+'; EXEC xp_cmdshell('dir'); --,1
+'; EXEC xp_cmdshell('dir'); --,1
+' OR 1=1 --,1
+'; EXEC xp_cmdshell('dir'); --,1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+' OR 1=1 --,1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+"SELECT id, name FROM employees WHERE department='HR'",0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+admin' --,1
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+"SELECT id, name FROM employees WHERE department='HR'",0
+admin' --,1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+"SELECT id, name FROM employees WHERE department='HR'",0
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+"SELECT id, name FROM employees WHERE department='HR'",0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+"SELECT id, name FROM employees WHERE department='HR'",0
+' OR 1=1 --,1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+' OR 1=1 --,1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+admin' --,1
+' OR 1=1 --,1
+'; EXEC xp_cmdshell('dir'); --,1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+admin' --,1
+DROP TABLE users; --,1
+"SELECT id, name FROM employees WHERE department='HR'",0
+'; EXEC xp_cmdshell('dir'); --,1
+admin' OR '1'='1',1
+DROP TABLE users; --,1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+admin' OR '1'='1',1
+' OR 1=1 --,1
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+admin' --,1
+"SELECT id, name FROM employees WHERE department='HR'",0
+admin' OR '1'='1',1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+"SELECT id, name FROM employees WHERE department='HR'",0
+SELECT * FROM users WHERE username='admin' AND password='password',0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+"' UNION SELECT null, username, password FROM users --",1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+"SELECT id, name FROM employees WHERE department='HR'",0
+"' UNION SELECT null, username, password FROM users --",1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+admin' OR '1'='1',1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+SELECT * FROM users WHERE username='admin' AND password='password',0
+SELECT * FROM users WHERE username='admin' AND password='password',0
+"SELECT id, name FROM employees WHERE department='HR'",0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+"SELECT id, name FROM employees WHERE department='HR'",0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+admin' OR '1'='1',1
+'; EXEC xp_cmdshell('dir'); --,1
+SELECT * FROM users WHERE username='admin' AND password='password',0
+SELECT * FROM users WHERE username='admin' AND password='password',0
+SELECT * FROM users WHERE username='admin' AND password='password',0
+SELECT * FROM users WHERE username='admin' AND password='password',0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+'; EXEC xp_cmdshell('dir'); --,1
+"' UNION SELECT null, username, password FROM users --",1
+admin' OR '1'='1',1
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+"SELECT id, name FROM employees WHERE department='HR'",0
+' OR 1=1 --,1
+"SELECT id, name FROM employees WHERE department='HR'",0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+SELECT * FROM users WHERE username='admin' AND password='password',0
+admin' --,1
+SELECT * FROM users WHERE username='admin' AND password='password',0
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+DROP TABLE users; --,1
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+SELECT * FROM users WHERE username='admin' AND password='password',0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+admin' OR '1'='1',1
+SELECT * FROM users WHERE username='admin' AND password='password',0
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+'; EXEC xp_cmdshell('dir'); --,1
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+' OR 1=1 --,1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+SELECT * FROM users WHERE username='admin' AND password='password',0
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+DROP TABLE users; --,1
+DROP TABLE users; --,1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+"' UNION SELECT null, username, password FROM users --",1
+"SELECT id, name FROM employees WHERE department='HR'",0
+' OR 1=1 --,1
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+SELECT * FROM users WHERE username='admin' AND password='password',0
+' OR 1=1 --,1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+"' UNION SELECT null, username, password FROM users --",1
+'; EXEC xp_cmdshell('dir'); --,1
+admin' --,1
+"' UNION SELECT null, username, password FROM users --",1
+DROP TABLE users; --,1
+DROP TABLE users; --,1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+"' UNION SELECT null, username, password FROM users --",1
+' OR 1=1 --,1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+admin' --,1
+DROP TABLE users; --,1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+admin' OR '1'='1',1
+' OR 1=1 --,1
+"' UNION SELECT null, username, password FROM users --",1
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+admin' --,1
+"SELECT id, name FROM employees WHERE department='HR'",0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+'; EXEC xp_cmdshell('dir'); --,1
+"' UNION SELECT null, username, password FROM users --",1
+"' UNION SELECT null, username, password FROM users --",1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+DROP TABLE users; --,1
+"SELECT id, name FROM employees WHERE department='HR'",0
+admin' --,1
+admin' OR '1'='1',1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+SELECT * FROM users WHERE username='admin' AND password='password',0
+DROP TABLE users; --,1
+DROP TABLE users; --,1
+"SELECT id, name FROM employees WHERE department='HR'",0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+' OR 1=1 --,1
+"SELECT id, name FROM employees WHERE department='HR'",0
+"SELECT id, name FROM employees WHERE department='HR'",0
+'; EXEC xp_cmdshell('dir'); --,1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+"' UNION SELECT null, username, password FROM users --",1
+admin' --,1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+"SELECT id, name FROM employees WHERE department='HR'",0
+DROP TABLE users; --,1
+' OR 1=1 --,1
+' OR 1=1 --,1
+'; EXEC xp_cmdshell('dir'); --,1
+admin' --,1
+"SELECT id, name FROM employees WHERE department='HR'",0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+SELECT * FROM users WHERE username='admin' AND password='password',0
+' OR 1=1 --,1
+DROP TABLE users; --,1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+SELECT * FROM products WHERE category='electronics' AND price > 100,0
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+"SELECT id, name FROM employees WHERE department='HR'",0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+DROP TABLE users; --,1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+'; EXEC xp_cmdshell('dir'); --,1
+UPDATE users SET password='newpassword' WHERE username='john_doe',0
+"' UNION SELECT null, username, password FROM users --",1
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
+"SELECT id, name FROM employees WHERE department='HR'",0
+admin' --,1
+"INSERT INTO orders (customer_id, product_id, quantity) VALUES (123, 456, 3)",0
+SELECT * FROM users WHERE username='admin' AND password='password',0
+SELECT * FROM users WHERE username='admin' AND password='' OR 1=1 --,1
